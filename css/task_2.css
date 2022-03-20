@@ -1,0 +1,644 @@
+/* first page */
+
+*{
+    margin: 0%;
+}
+#navbar {
+    overflow: auto;
+    padding: 0px;
+    padding-right: 60px;
+    padding-left: 80px;
+    
+}
+
+#navbar img{
+    height: 50px;
+    padding-top: 30px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+}
+#navbar ul li{
+    float: left;
+}
+
+header{
+    position: relative;
+    background: url(../images/front-pic.png);
+    background-repeat: no-repeat;
+    background-size: 1440px 810px;
+    height: 809.59px;
+    max-width: 1440px;
+    margin-left: 0px;
+    left: -16px;
+    
+}
+
+#navbar ul li a{
+    display: block;
+    text-align: center;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-family: Poppins, Bold;
+}
+
+#navbar ul li:last-child{
+    background-color: #373aca;
+    border-radius: 10px;
+    margin-left: 110px; ;
+    
+}
+
+.container
+{
+    margin: auto;
+    max-width: 100em;
+    overflow: auto;
+    padding: 0px 20px ;
+}
+
+
+#para1 p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5.7%;
+    line-height: 36px;
+    height: 51px;
+    
+    text-align: center;
+    color: aliceblue;
+    font-size: 36px;
+    font-family: 'poppins';
+    /* font-weight: 600; */
+    
+}
+#usa-today{
+    font-size: larger;
+}
+
+#para2 p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: 'Poppins';
+    font-size: 19px/30px;
+    
+}
+#button{
+    width: max-content;
+}
+
+#button p{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+    line-height: 35px;
+    border-style:solid;
+    border-color: white;
+    border-width: 1px;
+    font-family: 'poppins';
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#button img{
+    position: relative;
+    top: 5px;
+}
+
+#scroll-pic{
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* .our_developed */
+
+.our_developed{
+    font-family: 'poppins';
+    color: #fff;
+    font-size: medium;
+    font-weight: 1000s;
+    text-align: center;
+    background-image: url(../images/world.png);
+    padding: 5%;
+    margin: 10px;
+}
+#world{
+    width: 100%;
+}
+
+/* consult to me */
+
+.consult{
+    font-family: 'poppins';
+    display: flex;
+    color: #fff;
+    margin: 10%;
+    padding: 10;
+    background-image: url(../images/back-people.png);
+    border-radius: 10px;
+}
+.consult_to{
+    font-weight: 100;
+    margin :20px;
+    padding: 50px;
+    font-weight: 100;
+}
+#book{
+    height: 20%;
+    width: 80%;
+    padding-top: 30%;
+}
+
+/* ready to try cronj */
+.ready{
+    background-color:#F8F9FD;
+    font-family: 'poppins';
+    display: flex;
+    color: #fff;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url(../images/back-blue.png);
+    border-radius: 10px;
+}
+.ready_to{
+    font-weight: lighter;
+    margin :30px;
+    padding: 30px;
+    margin-left: 5%;
+}
+#hand{
+    height: 30%;
+    width: 80%;
+    padding-top: 25%;
+    margin-left: 80%;
+}
+
+
+/* usa--lapy */
+.usa{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+/* to what */
+.to_what{
+    display: flex;
+    font-family: 'poppins';
+    margin: 10%;
+}
+
+.letter{
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: small;
+    background-position: center;
+    padding-top: 30px;
+
+}
+.letter-usa{
+    margin-left: 30px;
+}
+
+.star{
+    font-size: medium;
+    font-family: 'poppins';
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+#star-collage{
+    width: 1350px;
+    height:500px;
+    padding-top: 20px;
+}
+.box-ready-2{
+    padding-top: 5%;
+    background-color: #F8F9FD;
+}
+.game{
+    font-size: medium;
+    font-family: 'poppins';
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+.how-was{
+    background-color:#F8F9FD;
+}
+#g-collage{
+    padding-top: 50px;
+    text-align: center;
+    height: 100;
+    width: 200;
+}
+.game img{
+    padding-bottom: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+/* SUCCESS */
+#success{
+    background-color: #F8F9FD;
+    font-family: 'poppins';
+}
+.success{
+    margin: 75px 90px 0px 160px;
+    display: flex;
+}
+
+.success_left{
+    max-width: 50%;
+    padding: 30px;
+}
+
+.success_right{
+    padding: 40px;
+}
+
+.right_upper {
+    display: flex;
+
+}
+
+.right_lower{
+    display: flex;
+    
+}
+
+
+.right_upper h2 , .right_lower h2{
+    color:#0670F4;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.right_tags{
+    padding: 10px 50px 26px 40px;
+}
+#profit{
+    margin-left: 40px;
+}
+
+.success_left h3 {
+    padding-bottom: 15px;
+    line-height: 2.2rem;
+}
+
+.success_left img {
+    padding-bottom: 20px;
+    width: auto;
+}
+
+.success_left p {
+    padding-bottom: 15px;
+    opacity: .85;
+}
+#button-img{
+    width:400px;
+}
+
+
+/* how did  */
+#how_did_USA{
+    font-family: 'poppins';
+    background: url(../images/mockup.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 120vh;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.how_did_USA{
+    max-width: 742px;
+    padding: 0px 0px 0px 130px;
+}
+
+.how_did_USA h2 {
+    padding-bottom: 15px;
+    line-height: 2.2rem;
+    font-weight: bold;
+}
+
+.how_did_USA p {
+    padding-bottom: 15px;
+    opacity: .85;
+}
+
+.how_did_USA img {
+    padding-bottom: 10px;
+    width: 50px;
+    height: 80px;
+}
+
+.how_did_box{
+    font-family: 'poppins';
+    border-color:#EEF0F6;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 40px;
+    width: 25%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 120px;
+    
+}.submit{
+    font-family: 'poppins';
+    color: white;
+    border-width: 1px;
+    background-color: blue;
+    border-color: blue;
+    line-height: 40px;
+    width: 10%;
+    font-size: medium;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* TECH STACK*/
+
+.tech-stack{
+    font-family: 'poppins';
+    padding: 50px 100px 20px 100px;
+}
+
+.tech_text{
+    text-align: center;
+    
+}
+.tech_text h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+.tech_img{
+    display: flex;
+    justify-content: center;
+}
+
+/* servies we provide */
+
+.Serivices-outer-area{
+    font-family: 'poppins';
+    background-color: #F4F7FD;
+}
+
+.services-row{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.services-row p {
+    opacity: .7;
+}
+
+.telephone{
+    margin-right: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.a-row{
+    margin: 10px 134px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 79%;
+    align-content: center;
+}
+
+.s-card{
+    flex: 1;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.s-column{
+    margin: 20px;
+}
+
+.img-5{
+    width: fit-content;
+    padding-bottom: 20px;
+}
+
+.s-blue-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #0c08f0;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.s-simple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    opacity: 0.7;
+    font-size: small;
+}
+
+.s-column-2{
+    max-width: 72%;
+    
+}
+
+/* low budget */
+
+.low{
+    background-color:#F8F9FD;
+    font-family: 'poppins';
+    display: flex;
+    color: #fff;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url(../images/low-budget.png);
+    border-radius: 10px;
+}
+
+#contact-us{
+    height: 30%;
+    width: 80%;
+    padding-top: 25%;
+    margin-left: 60%;
+
+}
+/* GET AN INNOVATIVE */
+
+
+#estimated-btn{
+    height: 25%;
+    width: 90%;
+    padding-top: 20%;
+    margin-left: 20%;
+
+}
+
+
+/* PROJECT DESIGN */
+
+.project_design{
+    font-family: 'poppins';
+    padding: 0px 160px;
+    padding-top: 50px;
+}
+.pd_row1{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.pd_row2{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.pd_card h4{
+    max-width: 312px;
+    font-weight: bold;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+.pd_card p{
+    max-width: 312px;
+}
+
+ /* FORM */
+
+ .outerform{
+    font-family: 'poppins';
+    margin-top: 30px;
+    background-image: url(../images/form-backgrnd.png);
+    background-repeat: no-repeat;
+    width: 98vw;
+    object-fit: fill;
+}
+.outerform-container{
+    background-color: #fff;
+    padding: 100px;
+    box-shadow: 0px 0px 25px 0 #0000002c;
+    border-radius: 15px;
+}
+
+.form-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-heading h1{
+    font-weight: bolder;
+}
+
+.form-heading p{
+    opacity: .85;
+}
+
+.form-box{
+    border-color: #4f7edd8c ;
+    line-height: 40px;
+    width:30%;
+    color: #A39B9B;
+    border-radius: 10px;
+
+}
+
+.input_text{
+    padding-bottom:  20px;
+}
+
+.check_box{
+    border-color: #0F4DC2;
+    margin-right: 20px;
+}
+
+.check_boxes{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+
+.enquiry{
+    font-family: 'poppins';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.enquiry h5{
+    font-family: 'poppins';
+}
+
+.btn-internal-2 {
+    font-family: 'poppins';
+    cursor: pointer;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 30%;
+
+}
+.row-1{
+    display: flex;
+}
+
+/* FOOTER */
+#last-section {
+    background-color:#F6F9FC;
+    font-family: 'poppins';
+}
+#end li{
+    list-style: none;
+    line-height: 3rem;
+}
+
+#end h3{
+    font-weight: bold;
+}
+.end{
+    display: flex;
+    padding: 80px 140px 60px 120px;
+    justify-content: space-between;
+}
+
+.flags{
+    padding-right: 10px;
+}
+
+.end-1 , .end-4 ,.end-5{
+    font-weight: bold;
+}
+
+.social{
+    padding: 80px 140px 80px 120px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
